@@ -1,0 +1,81 @@
+* {
+    font-family:monospace;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+h2 {
+    font-size: 28px;
+    padding: 16px;
+    background-color: blanchedalmond;
+    border-radius: 12px 40px;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(.25turn, #780000, 10%, #0300b9);
+}
+.flexContent {
+    padding: 12px;
+    width: 80%;
+    margin-bottom: 12px;
+    color: white;
+    border-radius: 12px;
+    border:2px solid rgb(7, 255, 147) ;
+    background: rgba(3, 57, 235, 0.768);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.flexContent iframe {
+    width: 80%;
+}
+.flexContent__column {
+    flex-direction: column;
+}
+
+.flexContent p {
+    font-size: 15px;
+}
+.flex1 {
+    flex: 1;
+}
+.flex1 a{   
+    color: rgb(242, 194, 194);
+}
+.menu {
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 16, 16);
+}
+.marginMenu {
+    height: 50px;
+}
+.flexMenu {
+    color: white;
+    flex: 1;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.flexMenu a {
+    background: ;
+    padding: 12px;
+    color: rgb(242, 194, 194);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(242, 194, 194);
+}
+a:hover {
+    color: rgb(77, 245, 44);
+}
